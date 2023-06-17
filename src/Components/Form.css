@@ -1,0 +1,36 @@
+.main{
+    background-color: black;
+    color: white;
+    display: grid;
+    place-items:center;
+    height: 100vh;
+}
+/* .form {
+    width: 100%;
+}
+.form > div >  input{
+    width: 30%;
+} */
+
+
+input{
+    border: none;
+    width: 423px;
+    background: transparent;
+    border-bottom: 1px solid white;
+    padding: 10px;
+    margin: 5px 0px;
+    color: white;
+    outline: none;
+}
+button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+}
+.err{
+    color: red;
+}
+.succ{
+    color:green
+}
